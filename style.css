@@ -73,14 +73,14 @@ select {
 
 .frameworks-list {
     list-style-image: url(/assets/images/Vector2.svg);
-    padding-left: 20px;
+    padding: 0px 0px 0px 20px;
     font-weight: 400;
     font-size: 16px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    padding-left: 20px;
+    padding: 0px 0px 0px 20px;
 
     font-weight: 400;
     font-size: 16px;
@@ -135,14 +135,14 @@ table {
 }
 
 th, td {
-    padding: 11px 13px 12px 15px;
+    padding: 12px 15px;
     text-align: left;
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background: rgba(163, 167, 255, 0.3);
-    padding: 25px 0;
+    padding: 26px 0;
     /* Стили для футера */
 }
 
