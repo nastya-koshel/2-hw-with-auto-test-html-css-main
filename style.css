@@ -73,7 +73,7 @@ select {
 
 .frameworks-list {
     list-style-image: url(/assets/images/Vector2.svg);
-    padding: 0px 0px 0px 20px;
+    padding: 0px 20px;
     font-weight: 400;
     font-size: 16px;
     /* Стили для маркированного списка во второй секции */
