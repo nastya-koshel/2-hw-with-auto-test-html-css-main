@@ -22,15 +22,14 @@ header span {
 
 .main-section {
     background: #fafaff;
-    width: 1440px;
-    height: 1024px;
-    /* Стили для первой секции */
+    padding: 60px 0;    /* Стили для первой секции */
+    min-height: 100%;
 }
 
 .main-title {
     font-weight: 700;
     font-size: 48px;
-    padding: 60px 0 20px 0;
+    margin-bottom: 20px;
     /* Стили для заголовка в первой секции */
 }
 
@@ -41,52 +40,47 @@ header span {
 }
 
 .main-image {
-    width: 715px;
-    height: 508px;
+    max-width: 715px;
     /* Стили для изображения в первой секции */
 }
 
 
 .about-section {
-    width: 1440px;
-    height: 883px;
-    /* Стили для второй секции */
+    background-color: #fff;
+    padding: 100px 0;   
+     /* Стили для второй секции */
 }
 
 select {
-    margin-top: 100px;
     font-weight: 400;
     font-size: 16px;
-    padding-left: 12px;
-
+    width: 150px;
+    padding: 9px 0 8px 12px;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
-    width: 150px;
-    height: 36px;
 
-    background: url(/assets/images/Vector1.png) no-repeat top 50% right 15px;
+    background: url(/assets/images/Vector1.svg) no-repeat top 50% right 15px;
     appearance: none;
-
     /* Стили для выпадающего списка */
 }
 
 .section-title {
     font-weight: 700;
     font-size: 24px;
-    padding-bottom: 25px;
+    margin-bottom: 25px;
     /* Стили для заголовков во второй секции */
 }
 
 .frameworks-list {
-    list-style-image: url(/assets/images/Vector2.png);
-    margin-left: 22px;
+    list-style-image: url(/assets/images/Vector2.svg);
+    padding-left: 20px;
     font-weight: 400;
     font-size: 16px;
     /* Стили для маркированного списка во второй секции */
 }
 
 .books-list {
-    margin-left: 22px;
+    padding-left: 20px;
 
     font-weight: 400;
     font-size: 16px;
@@ -96,22 +90,18 @@ select {
 .label {
     font-weight: 400;
     font-size: 16px;
-    padding-left: 2px;
     /* Стили для подписей чекбоксов */
 }
 
 .text-field {
-    width: 464px;
-    height: 36px;
+    width: 330px;
     border: 1px solid rgba(48, 48, 48, 0.3);
     border-radius: 5px;
-    width: 330px;
-    height: 36px;
+    padding: 9px 0 8px 12px;
 
     font-weight: 400;
     font-size: 16px;
     color: rgba(48, 48, 48, 0.2);
-    padding-left: 12px;
     /* Стили для односточного поля ввода текста */
 }
 
@@ -138,8 +128,6 @@ select {
 table {
     border-collapse: collapse;
     border: 1px solid #95a1bb;
-    width: 300px;
-    height: 196px;
 
     font-weight: 400;
     font-size: 14px;
@@ -147,15 +135,14 @@ table {
 }
 
 th, td {
-    padding-left: 15px;
-    height: 40px;
+    padding: 11px 13px 12px 15px;
     text-align: left;
     /* Стили для ячеек таблицы */
 }
 
 footer {
     background: rgba(163, 167, 255, 0.3);
-    padding: 26px 0 27px 1px;
+    padding: 25px 0;
     /* Стили для футера */
 }
 
